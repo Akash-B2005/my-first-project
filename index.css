@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, Serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://techovedas.com/wp-content/uploads/2024/04/netflix-octobre-contenus-2022-1536x864.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+}
+nav div{
+    display: flex;
+    padding-left: 32rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sign-button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    width: 6rem;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.box{
+    padding: 3rem;
+    text-align: center;
+}
+.hero-buttons{
+    padding: 1rem;
+}
+.hero-buttons input{
+    height: 3rem;
+    width: 18rem;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+.get-started-btn{
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    width: 8rem;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.seperation{
+    height: 1rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.text-content{
+    margin-top: 10rem;
+    margin-left: 1rem;
+    font-size: 15px;
+    order: 1;
+}
+.tv-container {
+    order: 2;
+    position: relative;
+    width: 500px;
+}
+
+.tv-frame {
+    height: 100vh;
+    width: 40rem;
+    display: block;
+}
+.tv-video {
+    position: absolute;
+    top: 0%;   /* adjust to fit your TV image screen */
+    left: 17%;
+    width: 465px;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+}
+---forth-section---
+.faq{
+    margin-top: 10rem;
+    font-size: 15px;
+    padding: 1rem;
+}
+.faq h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.3s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    padding: 0 10px;
+    text-align: left;
+    background: #303030;
+    max-height: 0;
+    overflow: hidden;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.end-hero{
+    text-align: center;
+}
+.end-hero small{
+    font-size: 13px;
+}
+.end-hero .hero-buttons{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+------footer------
+footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+} 
+footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 3rem;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-left: 3rem;
+    text-decoration: underline;
+    margin-bottom:  20px;
+}
+footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+}
+.language-btn{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-left: 3rem;
+}
+.copyright-txt{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 3rem;
+}
